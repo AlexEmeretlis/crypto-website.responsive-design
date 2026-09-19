@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo-img {
+    width: 1.447rem;
+}
+
+.header-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-article img {
+    max-width: 100%;
+}   
+
+.articles-grid {
+    display: grid;
+    grid-template-columns: minmax(368px, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-article {
+    display: flex;
+    flex-direction: column;
+}

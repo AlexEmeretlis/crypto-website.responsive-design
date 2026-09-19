@@ -7,28 +7,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <img src="images/logo.png" alt="Logo">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+        <div>
+            <img class="logo-img" src="images/logo.png" alt="Logo">
+            <h3 class="logo-text">Crypto & Developing</h3>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </div>
     </nav>
-    <header>
-        <img src="images/header1.png" alt="Header Image about crypto and developing">
-        <h1>From Trading Screens to Code Editors: Why I'm Building in Fintech</h1>
-        <p>Five years staring at candlestick charts taught me more about product design than any UX course could. 
-            Now I'm channeling that experience into building the tools I once wished existed —
-             starting with learning to code from scratch. </p>
+    <header class="header-article">
+        <article>
+            <img src="images/header1.png" alt="Header Image about crypto and developing">
+            <h1>From Trading Screens to Code Editors: Why I'm Building in Fintech</h1>
+            <p>Five years staring at candlestick charts taught me more about product design than any UX course could. 
+                Now I'm channeling that experience into building the tools I once wished existed —
+                starting with learning to code from scratch. </p>
+        </article>
     </header>
-    <main>
-        <section></section>      
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+    <main class="articles-grid">
+        <section>
+            <article  class="blog-article">
+                <img src="images/microstructure.png" alt="Article Image about crypto and developing">
+                <h3>Understanding Market Microstructure: What Every Trader Should Know</h3>
+                <p>Most traders focus on price action and ignore what's happening underneath — the order flow,
+                     the spreads, the liquidity. Here's what microstructure taught me about markets.</p>
+            </article>
+            <article class="blog-article">
+                <img src="images/scalping-vs-swing.png" alt="scalping vs swing trading">
+                <h3>Scalping vs Swing Trading: Lessons from 5 Years on the Charts</h3>
+                <p>Two completely different mindsets, two completely different risk profiles. 
+                    I've done both — here's what each one taught me about discipline and patience.</p>
+            </article>
+            <article class="blog-article">
+                <img src="images/slippage.png" alt="Slippage Image about crypto explaining slippage">
+                <h3>What is Slippage and Why It Matters More Than You Think</h3>
+                <p>That gap between the price you expected and the price you got isn't random. 
+                    Understanding slippage changed how I think about execution</p>
+            </article>
+            <article class="blog-article">
+                <img src="images/order-book.png" alt="Order Book Image,about crypto explaining order books">
+                <h3>Reading Order Books: The Skill Most Traders Skip</h3>
+                <p>Everyone watches the chart. Few watch the order book. 
+                    Here's why that's a mistake, and what it actually tells you.</p>
+            </article>
+            <article class="blog-article">
+                <img src="images/api.png" alt="API Image about crypto explaining API">
+                <h3>API Trading 101: How I Connected My Terminal to the Exchange</h3>
+                <p>Before I ever wrote a line of code for the web, I was already working with APIs — just from the trading side. 
+                    Here's how that terminal setup worked.</p>
+            </article>
+            <article class="blog-article">
+                <img src="images/risk-management.png" alt="Risk Management Image about crypto explaining risk management">
+                <h3>Risk Management: The Boring Skill That Actually Makes Money</h3>
+                <p>Nobody gets excited talking about position sizing. 
+                    But it's the one skill that separates traders who survive from traders who don't.</p>
+            </article>
+        </section>      
     </main>
     
 </body>

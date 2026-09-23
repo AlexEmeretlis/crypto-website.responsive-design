@@ -5,16 +5,49 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-section  ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.nav-section li {
+    list-style: none;
 }
 
 .logo-img {
-    width: 1.447rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .header-article {
-    display: flex;
-    flex-direction: column;
+    position: relative;
+}
+
+.header-content {
+    position: absolute;
+    padding: 20px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    
 }
 
 .header-article img {

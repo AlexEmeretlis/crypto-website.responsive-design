@@ -40,6 +40,11 @@ main p {
 }
 
 .navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     padding-left: 1em;
@@ -87,6 +92,7 @@ main p {
 .header-container {
     display: flex;
     flex-direction: column;
+    margin-top: 3.5rem;
 }
 
 .header-article {
@@ -143,6 +149,7 @@ main p {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 204, 51, 0.5);
 }
 
 .about-me {

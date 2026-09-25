@@ -16,22 +16,24 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about-me.html">About me</a></li>
-                <li><a href="#contact">Contact me</a></li>
+                <li><a href="index.html#contact">Contact me</a></li>
             </ul>
         </div>
     </nav>
-    <header class="header-container" id="home">
-        <article class="header-article">
-            <div class="header-content">
-                <h1><a href="featured-post.html">From Trading Screens to Code Editors</a></h1>
-                <p>Five years staring at candlestick charts taught me more about product design than any UX course could. 
-                    Now I'm channeling that experience into building the tools I once wished existed —
-                    starting with learning to code from scratch. </p>
-            </div>
-        </article>
-    </header>
+    <article class="about-me" id="about">
+        <img src="images/myphoto.jpeg" alt="My Photo">
+        <h2>About Me</h2>
+        <p>
+            Five years ago, I was watching candlestick charts, not code editors. Scalping, day trading, swing trading — running everything through a professional terminal connected directly to the exchange via API keys.
+            I learned to read markets the hard way: through wins, through losses, and through the kind of discipline that only comes from having real money on the line.
+            Somewhere along the way, I got curious about the tools I was using every day. What was actually happening behind that terminal? How did the API calls work? Could I build something like this myself?
+            That curiosity turned into a full career shift. I'm now teaching myself full-stack development, with a clear focus: fintech. Not because I'm leaving trading behind, but because I finally understand both sides of the screen — the trader who needs the tool, and the developer who builds it.
+            This blog is where I document that journey — the market knowledge I bring with me, and the code I'm learning to write.
+        </p>
+    </article>
     <main class="articles-grid">
         <section>
+            <h3 class="resent-articles">Recent Articles</h3>
             <article  class="blog-article">
                 <img src="images/microstructure.png" alt="Article Image about crypto and developing">
                 <h3>Understanding Market Microstructure: What Every Trader Should Know</h3>
@@ -50,27 +52,9 @@
                 <p>That gap between the price you expected and the price you got isn't random. 
                     Understanding slippage changed how I think about execution</p>
             </article>
-            <article class="blog-article">
-                <img src="images/order-book.png" alt="Order Book Image,about crypto explaining order books">
-                <h3>Reading Order Books: The Skill Most Traders Skip</h3>
-                <p>Everyone watches the chart. Few watch the order book. 
-                    Here's why that's a mistake, and what it actually tells you.</p>
-            </article>
-            <article class="blog-article">
-                <img src="images/api.png" alt="API Image about crypto explaining API">
-                <h3>API Trading 101: How I Connected My Terminal to the Exchange</h3>
-                <p>Before I ever wrote a line of code for the web, I was already working with APIs — just from the trading side. 
-                    Here's how that terminal setup worked.</p>
-            </article>
-            <article class="blog-article">
-                <img src="images/risk-management.png" alt="Risk Management Image about crypto explaining risk management">
-                <h3>Risk Management: The Boring Skill That Actually Makes Money</h3>
-                <p>Nobody gets excited talking about position sizing. 
-                    But it's the one skill that separates traders who survive from traders who don't.</p>
-            </article>
+
         </section>      
     </main>
-    
     <section class="contact-me" id="contact">
         <h2>Contact Me</h2>
         <p>If you want to reach out, feel free to email me at <a href="mailto:malishgkl@gmail.com">malishgkl@gmail.com</a></p>

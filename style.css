@@ -143,6 +143,7 @@ main p {
     align-items: center;
     text-align: center;
     padding: 20px;
+    margin-top: 3.5rem;
 }
 
 .about-me img {
@@ -150,10 +151,6 @@ main p {
     height: 150px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(255, 204, 51, 0.5);
-}
-
-.about-me {
-    text-align: center;
 }
 
 .about-me p {
@@ -167,8 +164,16 @@ main p {
 }
 
 .contact-me {
+    background-color: var(--bg-surface);
     text-align: center;
     padding: 20px;
+}
+
+.resent-articles {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
 }
 
 footer {

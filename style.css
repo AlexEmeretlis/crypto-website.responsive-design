@@ -221,7 +221,6 @@ footer {
     .header-article {
        min-height: 30rem;
        margin-bottom: 2rem;
-
     }
 
     .header-content {
@@ -258,13 +257,6 @@ footer {
     .about-me-header h3 {
         text-align: left;
     }
-
-    .about-me p{
-        max-width: 60%;
-    }
-
-    .
-
  
     .articles-grid {
         grid-template-columns: repeat(3, minmax(309px, 1fr));

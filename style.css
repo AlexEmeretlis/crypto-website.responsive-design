@@ -139,8 +139,8 @@ main p {
 .articles-grid {
     display: grid;
     grid-template-columns: minmax(368px, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 1.25rem;
+    padding: 1.25rem;
 }
 
 .blog-article {
@@ -153,7 +153,7 @@ main p {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     margin-top: 3.5rem;
 }
 
@@ -176,10 +176,30 @@ main p {
     text-shadow: 0 0 6px rgba(255, 204, 51, 0.35);
 }
 
+
+.about-me-text {
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.featured-post {
+    text-align: left;
+    line-height: 1.5;
+    padding: 1.25rem;
+    margin-top: 2rem;
+}
+
+.featured-post p {
+    line-height: 1.5;
+    max-width: 50rem;
+}
+
+
 .contact-me {
     background-color: var(--bg-surface);
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .resent-articles {
@@ -191,7 +211,7 @@ main p {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: var(--bg-footer);
     color: var(--text-secondary);
     border-top: 1px solid var(--border-subtle);
@@ -216,5 +236,66 @@ footer {
     .header-content p {
         font-size: 1.25rem;
         line-height: 1.5;
+    }
+
+    .about-me {
+        text-align: center;
+    }
+
+    .about-me p {
+        max-width:70%;
+    }
+
+    .about-me-header {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 70%;
+        margin-bottom: 1.5rem;
+    }
+
+    .about-me-header h3 {
+        text-align: left;
+    }
+
+    .about-me p{
+        max-width: 60%;
+    }
+
+    .
+
+ 
+    .articles-grid {
+        grid-template-columns: repeat(3, minmax(309px, 1fr));
+        padding: 2.5rem;
+        gap: 2.5rem;
+        grid-template-areas:
+        "micro scalp slipp" 
+        "order api risk";
+    }
+
+    .microstructure {
+        grid-area: micro;
+    }
+
+    .scalping {
+        grid-area: scalp;
+    }
+
+    .slippage {
+        grid-area: slipp;
+    }
+
+    .orderbook {
+        grid-area: order;
+    }
+
+    .api {
+        grid-area: api;
+    }
+
+    .risk {
+        grid-area: risk;
     }
 }

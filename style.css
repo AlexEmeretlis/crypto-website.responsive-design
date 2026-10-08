@@ -48,6 +48,7 @@ main p {
 }
 
 .navbar {
+    margin-bottom: 1.5rem;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -197,6 +198,7 @@ main p {
 
 
 .contact-me {
+    width: 100%;
     background-color: var(--bg-surface);
     text-align: center;
     padding: 1.25rem;

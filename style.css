@@ -16,6 +16,12 @@ body {
     color: var(--text-primary);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 a {
     color: var(--accent-gold);
     text-shadow: 0 0 6px rgba(255, 204, 51, 0.5);
@@ -130,7 +136,7 @@ main p {
 
 .articles-grid {
     display: grid;
-    grid-template-columns: minmax(368px, 1fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: 1.25rem;
     padding: 1.25rem;
 }
@@ -252,7 +258,7 @@ footer {
     }
  
     .articles-grid {
-        grid-template-columns: repeat(3, minmax(309px, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         padding: 2.5rem;
         gap: 2.5rem;
         grid-template-areas:

@@ -24,6 +24,8 @@ A responsive, multi-page blog about crypto trading and my path into fintech deve
 - HTML5
 - CSS3
 - No frameworks, no JavaScript
+- Claude Code: used only to help with the color palette. All HTML, layout and responsive CSS were written by me.
+
 
 ## What I learned
 

@@ -69,6 +69,7 @@ main p {
 .nav-section li a {
     color: var(--text-secondary);
     text-shadow: none;
+    text-decoration: none;
 }
 
 .nav-section li a:hover {
@@ -89,7 +90,6 @@ main p {
 }
 .nav-section li {
     list-style: none;
-    text-decoration: none;
 }
 
 .logo-img {
@@ -179,10 +179,6 @@ main p {
     text-shadow: 0 0 6px rgba(57, 255, 136, 0.35);
 }
 
-.about-me-text {
-    max-width: 600px;
-    text-align: center;
-}
 
 .about-me-header h1 {
     font-size: 1.5rem;
@@ -265,9 +261,6 @@ footer {
         margin-bottom: 1.5rem;
     }
 
-    .about-me-header h3 {
-        text-align: left;
-    }
  
     .articles-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));

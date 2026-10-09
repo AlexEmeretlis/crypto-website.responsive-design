@@ -110,6 +110,7 @@ main p {
     min-height: 18.312rem;
     position: relative;
     box-shadow: 0 0 20px rgba(57, 255, 136, 0.5);
+    margin-bottom: 1.25rem;
 }
 
 .header-content {
@@ -152,11 +153,10 @@ main p {
     align-items: center;
     text-align: center;
     padding: 1.25rem;
-    margin-top: 3.5rem;
 }
 
 .about-me img {
-    width: 150px;
+    min-width: 150px;
     height: 150px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(255, 204, 51, 0.5);
@@ -174,12 +174,19 @@ main p {
     text-shadow: 0 0 6px rgba(255, 204, 51, 0.35);
 }
 
+.about-me-name {
+    color: var(--accent-green);
+    text-shadow: 0 0 6px rgba(57, 255, 136, 0.35);
+}
 
 .about-me-text {
     max-width: 600px;
     text-align: center;
 }
 
+.about-me-header h1 {
+    font-size: 1.5rem;
+}
 
 .featured-post {
     text-align: left;
@@ -188,6 +195,12 @@ main p {
     margin-top: 2rem;
 }
 
+.featured-post h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent-green);
+    text-shadow: 0 0 6px rgba(57, 255, 136, 0.35);
+}
 .featured-post p {
     line-height: 1.5;
     max-width: 50rem;
@@ -195,7 +208,6 @@ main p {
 
 
 .contact-me {
-    width: 100%;
     background-color: var(--bg-surface);
     text-align: center;
     padding: 1.25rem;
